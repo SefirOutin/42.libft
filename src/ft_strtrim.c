@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/07 14:57:44 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/29 21:36:47 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:46:14 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
@@ -37,5 +37,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	printf("%s\n", ft_strtrim(s1, " "));
 	return (0);
 }*/
-
-      girgi   rignri      

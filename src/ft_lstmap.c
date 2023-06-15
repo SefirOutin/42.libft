@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/16 15:24:32 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/18 16:55:38 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:44:33 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {

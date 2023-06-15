@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 13:40:40 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/18 17:03:25 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:44:07 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 int	ft_isdigit(int c)
 {

@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 12:44:48 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/18 16:56:16 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:45:35 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 char	*ft_strdup(const char *s)
 {

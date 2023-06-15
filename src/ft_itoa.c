@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 12:46:52 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/25 16:50:32 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:44:13 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 static int	nb_malloc(int n)
 {

@@ -6,7 +6,7 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/04 16:52:51 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/25 18:54:38 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 15:00:03 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <bsd/string.h>
+# include <fcntl.h>
 # include <limits.h>
 # include <stdarg.h>
 # include <stddef.h>
@@ -22,6 +23,10 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 4096
+# endif
 
 typedef struct s_list
 {
@@ -83,5 +88,7 @@ size_t				pf_putchar(int c);
 size_t				pf_putstr(char *s);
 void				pf_putnbr(int nb, size_t *len);
 void				pf_convert_base(unsigned long nb, char index, size_t *len);
+
+char				*get_next_line(int fd);
 
 #endif

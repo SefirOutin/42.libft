@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/04 15:12:22 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/18 16:55:46 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:44:40 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 16:17:40 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/18 16:55:53 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:44:50 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t count)
 {

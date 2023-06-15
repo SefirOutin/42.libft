@@ -6,11 +6,10 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 15:01:53 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/29 22:15:32 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:45:02 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/ft_printf.h"
 #include "../include/libft.h"
 
 static int	check_format(const char *str)
@@ -70,11 +69,4 @@ int	ft_printf(const char *str, ...)
 		oula(str, args, &len);
 	va_end(args);
 	return (len);
-}
-
-int	main()
-{
-	//int	i = 0;
-	printf("len me : %d\n", ft_printf("%i", 3.14));
- 	printf("len autre : %d\n", printf("%i", 3.14));
 }

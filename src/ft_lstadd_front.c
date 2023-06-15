@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 17:06:30 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/18 16:55:24 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:44:18 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {

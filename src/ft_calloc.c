@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 12:38:26 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/18 17:03:15 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:43:55 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {

@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 15:53:58 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/18 16:55:40 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:44:36 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 t_list	*ft_lstnew(void *content)
 {

@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 17:00:55 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/18 16:56:49 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:46:20 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 int	ft_tolower(int c)
 {

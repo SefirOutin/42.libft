@@ -6,11 +6,11 @@
 /*   By: soutin <soutin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/07 17:07:39 by soutin            #+#    #+#             */
-/*   Updated: 2023/05/25 18:44:51 by soutin           ###   ########.fr       */
+/*   Updated: 2023/06/15 14:45:29 by soutin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../include/libft.h"
 
 static int	is_sep(char s, char c)
 {
